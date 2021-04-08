@@ -49,8 +49,6 @@ stages:
     pool:
       vmImage: 'ubuntu-18.04'
     environment: 'spike.default'
-    variables:
-    - group: Release
     strategy:
       runOnce:
         deploy:
